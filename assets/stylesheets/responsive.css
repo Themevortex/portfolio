@@ -55,8 +55,7 @@
    LARGE SCREENS - MAX 1199px
    ======================================== */
 
-@media (max-width : 1199px) {
-
+@media (max-width: 1199px) {
   /* Testimonial Section */
   .testimonial-inner {
     padding: 20px;
@@ -81,7 +80,6 @@
    ======================================== */
 
 @media (max-width: 1200px) {
-
   /* Hero Section */
   .hero-content {
     gap: 4rem;
@@ -107,7 +105,6 @@
    ======================================== */
 
 @media (max-width: 1024px) {
-
   /* Hero Section */
   .hero-container {
     flex-direction: column;
@@ -142,7 +139,6 @@
    ======================================== */
 
 @media (max-width: 992px) {
-
   /* Hero Section */
   .hero-content {
     grid-template-columns: 1fr;
@@ -170,7 +166,7 @@
   .hero-stats {
     justify-content: center;
   }
- .service-box-content {
+  .service-box-content {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
@@ -277,7 +273,12 @@
    ======================================== */
 
 @media (max-width: 768px) {
-
+  :root {
+    --spacing-lg: 8rem;
+    --spacing-md: 6rem;
+    --spacing-sm: 3rem;
+    --spacing-xs: 20px;
+  }
   /* Navigation & Header */
   .nav {
     position: fixed;
@@ -509,7 +510,12 @@
    ======================================== */
 
 @media (max-width: 576px) {
- 
+  :root {
+    --spacing-lg: 6rem;
+    --spacing-md: 4rem;
+    --spacing-sm: 2rem;
+    --spacing-xs: 16px;
+  }
   .service-title {
     font-size: 20px;
   }
@@ -580,9 +586,8 @@
   }
 
   /* Hero Section */
-  .hero {
-    padding-top: var(--spacing-md);
-    padding-bottom: var(--spacing-md);
+  .hero-scroll {
+    bottom: 0;
   }
 
   .hero-title {
