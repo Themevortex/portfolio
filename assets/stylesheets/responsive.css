@@ -182,7 +182,9 @@
   .hero-subtitle {
     font-size: 2.4rem;
   }
-
+  .hero-cta {
+    justify-content: center;
+  }
   .hero-description {
     max-width: 600px;
     margin: 0 auto;
