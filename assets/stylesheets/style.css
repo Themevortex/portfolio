@@ -157,7 +157,7 @@
 
 .hero-cta {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
